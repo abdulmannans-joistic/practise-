@@ -1,0 +1,108 @@
+body {
+    background-color: #F1F1F1;
+    font-family: 'Nunito', sans-serif;
+}
+.navbar {
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 0.75rem 1rem;
+}
+.navbar .btn {
+    box-shadow: none;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #333;
+}
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+    font-size: 1.1rem;
+    color: #333;
+}
+.card-body {
+    padding: 1.5rem;
+}
+.card .fa {
+    color: #333;
+}
+.badge {
+    font-size: 0.9rem;
+}
+table {
+    color: #333;
+}
+.table th {
+    font-weight: 600;
+}
+.table thead {
+    background-color: #F9F9F9;
+}
+.table thead th {
+    border: none;
+}
+.table tbody td {
+    vertical-align: middle;
+}
+.table-responsive-md {
+    overflow-x: auto;
+}
+.search-box {
+    position: relative;
+    max-width: 250px;
+}
+.search-box input[type="text"] {
+    border-radius: 20px;
+    padding-right: 35px;
+}
+.search-box .fa-search {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+.content-wrapper {
+    padding: 2rem;
+}
+
+#set-questions-container {
+    display: none; /* Initially hidden */
+}
+
+#define-campaign-heading {
+    cursor: pointer; /* Indicates the heading is clickable */
+}
+
+.form-content {
+    display: block; /* Initially shown, but will be toggled by JS */
+}
+#define-campaign-heading {
+    background-color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+#set-ques-heading{
+    background-color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+#define-qr-heading{
+    background-color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+#campaign-section {
+    background-color: #F1F1F1;
+    padding: 20px;
+    border-radius: 5px;
+}
+

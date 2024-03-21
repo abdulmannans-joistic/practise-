@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Callify</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <!-- bootstrap 5.3.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- main css -->
+  <link rel="stylesheet" href="style.css">
+
+<body>
+  <!-- header -->
+  <header class="fixed-top">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg" style="border: none;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/img/logo.png" alt="logo" class="img-fluid" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">TA Advisory</a>
+                </li>
+              </ul>
+              <div class="d-flex">
+                <a class="btn btn-type-one" href="login.html">Login</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- main content wrapper -->
+  <main id="main">
+    <!-- Hero section -->
+    <section id="hero_section">
+      <div class="container">
+        <div class="row" data-aos="fade-up">
+          <div class="col-12 col-lg-6">
+            <div>
+              <h1 class="text-white jumbo-font">Power of <br />Recruiter’s Voice</h1>
+              <p class="sm-font text-white">
+                <span class="d-block">Candidates resonate deeply when they hear a recruiter's voice.</span> At Callify,
+                our foundational belief in Talent Acquisition automation revolves around infusing a human touch,
+                ensuring personalization even at scale. It's not just technology; it's a human connection amplified.
+              </p>
+
+              <div class="btn-wrapper d-flex gap-2 gap-md-4">
+                <a class="btn btn-type-two" data-bs-toggle="modal" data-bs-target="#exampleModal">Demo?</a>
+                <a href="about-us#" class="btn btn-outline-one">Know more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="mob-pd-top-sm">
+              <lottie-player src="lottie/index.json" background="transparent" speed="1"
+                style="width: 100%; height: 400px;" loop autoplay></lottie-player>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- TATech Section -->
+    <section>
+      <div class="container">
+        <div class="row pd-bottom-md mt-5">
+          <div class="col-12">
+            <div class="ta-tech-wrapper d-flex align-items-center">
+              <div class="tt-img" data-aos="fade-up">
+                <img src="img/img/ta-tech-01.png" alt="ta-tech-01" class="img-fluid" />
+              </div>
+              <div class="tt-content">
+                <h3>Does your TATech <br />prioritize an outstanding <span class="primaryColor">Candidate
+                    Experience</span>?</h3>
+                <p>
+                  Whether a candidate approaches you or you identify them, securing their consent and offering response
+                  choices is crucial for a great candidate experience. Using the recruiter's authentic voice fosters
+                  trust, strengthens employer branding, and makes candidates more eager to engage and interview.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pd-bottom-md">
+          <div class="col-12">
+            <div class="ta-tech-wrapper d-flex flex-md-row-reverse align-items-center">
+              <div class="tt-img" data-aos="fade-up">
+                <img src="img/img/ta-tech-02.png" alt="ta-tech-02" class="img-fluid" />
+              </div>
+              <div class="tt-content">
+                <h3>Does your TATech ensure <span class="primaryColor">EEOC</span> and other compliances?</h3>
+                <p>
+                  EEOC guidelines mandate AI technology to uphold Transparency with explainable AI algorithms; Bias
+                  Mitigation against factors like race, color, religion, and gender; Human Oversight to safeguard
+                  protected groups; Fairness & Consistency, ensuring equal treatment for all job applicants.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pd-bottom-md">
+          <div class="col-12">
+            <div class="ta-tech-wrapper d-flex align-items-center">
+              <div class="tt-img" data-aos="fade-up">
+                <img src="img/img/ta-tech-03.png" alt="ta-tech-03" class="img-fluid" />
+              </div>
+              <div class="tt-content">
+                <h3>Does your TATech integrate seamlessly with your <span class="primaryColor">systems of
+                    records</span>?</h3>
+                <p>
+                  Many systems of records like ATS, HRIS while do a great job of record keeping; many lack proper
+                  automation around candidate interaction, CV matching, scheduling, interviewing, and matching to job
+                  opportunities. Today a good TATech has strong integrations with leading systems of records including
+                  SuccessFactors, Workday, iCIMS, ORC etc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services_section" class="bgColorOne pd-top-md pd-bottom-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <h2 class="text-center">What <span class="primaryColor">problems we solve</span> for TA Organizations?
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="service-wrapper d-flex">
+            <div class="service-content-wrapper" data-aos="fade-up">
+              <div class="service-icon">
+                <img src="img/img/service-icon-1.png" alt="service-icon-1" class="img-fluid" />
+              </div>
+              <div class="service-content">
+                <h4>Incomplete Job Description (JD)</h4>
+                <p class="sm-font">
+                  We ensure your job description is comprehensive and unbiased. We analyze and refine JDs, addressing
+                  any gaps, and can even craft one from scratch if you lack one!
+                </p>
+              </div>
+            </div>
+
+            <div class="service-content-wrapper" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-icon">
+                <img src="img/img/service-icon-2.png" alt="service-icon-2" class="img-fluid" />
+              </div>
+              <div class="service-content">
+                <h4>Difficulty in <br />JD – CV Matching</h4>
+                <p class="sm-font">
+                  Many ATSs struggle with JD-CV matching, leading to manual screening. We'll match and score CVs against
+                  your JD, presenting them with a fitment score and a slider for targeted selection.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-content-wrapper" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-icon">
+                <img src="img/img/service-icon-3.png" alt="service-icon-3" class="img-fluid" />
+              </div>
+              <div class="service-content">
+                <h4>Screening Interview Questions</h4>
+                <p class="sm-font">
+                  Crafting precise interview questions for every skill is challenging. We auto-generate accurate
+                  questions and answers to assess Skills, Experience, and Competence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="service-wrapper d-flex pt-0 pt-3">
+            <div class="service-content-wrapper" data-aos="fade-up">
+              <div class="service-icon">
+                <img src="img/img/service-icon-4.png" alt="service-icon-4" class="img-fluid" />
+              </div>
+              <div class="service-content">
+                <h4>Candidate Personalization</h4>
+                <p class="sm-font">
+                  We facilitate interactions in the recruiter's own voice (record and review on our platform), leading
+                  to improved candidate responses, candid answers, and heightened job interest.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-content-wrapper" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-icon">
+                <img src="img/img/service-icon-5.png" alt="service-icon-5" class="img-fluid" />
+              </div>
+              <div class="service-content">
+                <h4>Multi-modal interactions</h4>
+                <p class="sm-font">
+                  Candidate have a choice whether they want to respond via text & voice or phone & voice. We leverage
+                  multi-modal outreach via text, emails, bots and WhatsApp etc.
+                </p>
+              </div>
+            </div>
+
+            <div class="service-content-wrapper" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-icon">
+                <img src="img/img/service-icon-6.png" alt="service-icon-6" class="img-fluid" />
+              </div>
+              <div class="service-content">
+                <h4>End-to-end automation</h4>
+                <p class="sm-font">
+                  We go beyond screening: assisting with interview scheduling, conducting interviews, announcing offers,
+                  prompting acceptances, and engaging until the candidate's onboard.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Callify? - section -->
+    <section id="how_we_solve_section" class="primaryBgColor pd-top-md pd-bottom-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <h2 class="text-center text-white mb-0">Why Callify?</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pd-top-sm">
+          <div class="box-wrapper d-flex gap-4" data-aos="fade-up">
+            <div class="box-content-wrapper">
+              <div class="box-content">
+                <h4 class="text-white">Voice based Screening and Engagement</h4>
+                <p class="xsm-font text-white">
+                  Delivers authentic answers from candidates rather than typing resulting in ‘First-time-Right’
+                </p>
+              </div>
+            </div>
+
+            <div class="box-content-wrapper">
+              <div class="box-content">
+                <h4 class="text-white">Highly Personalized in Recruiter’s own Voice</h4>
+                <p class="xsm-font text-white">
+                  Enhances candidate experience and trust improving employer branding
+                </p>
+              </div>
+            </div>
+
+            <div class="box-content-wrapper">
+              <div class="box-content">
+                <h4 class="text-white">Compliance to EEOC Guidelines</h4>
+                <p class="xsm-font text-white">
+                  Tested for AI Transparency; Bias Mitigation; Human Oversight; Fairness & Consistency
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mob-pd-top-sm">
+          <div class="box-wrapper d-flex gap-4" data-aos="fade-up">
+            <div class="box-content-wrapper">
+              <div class="box-content">
+                <h4 class="text-white">Pre-integrated with leading ATSs</h4>
+                <p class="xsm-font text-white">
+                  Works seamlessly with SuccessFactors, Workday, Oracle Recruiting Cloud and 20 others
+                </p>
+              </div>
+            </div>
+
+            <div class="box-content-wrapper">
+              <div class="box-content">
+                <h4 class="text-white">Audited for InfoSecurity & Data Privacy</h4>
+                <p class="xsm-font text-white">
+                  Certified by large enterprises like EY, Accenture, Amazon, Bosch, Philips, NTT Data, Capgemini etc
+                </p>
+              </div>
+            </div>
+
+            <div class="box-content-wrapper">
+              <div class="box-content">
+                <h4 class="text-white">Offer Free Pilots</h4>
+                <p class="xsm-font text-white">
+                  Opportunity to ascertain value and build business case first before buying
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pd-top-xsm">
+          <div class="d-flex justify-content-center">
+            <a class="btn btn-type-two" data-bs-toggle="modal" data-bs-target="#exampleModal">Demo?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROI section -->
+    <section class="pd-top-md pd-bottom-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 mx-auto">
+            <div class="text-center">
+              <h1><span class="f-w-300">What</span> <span class="primaryColor">ROI</span> <span class="f-w-300">can we
+                  expect?</span></h1>
+              <p class="secondaryColor">
+                Different companies have different ROI perspectives and expectations. We can measure and showcase ROI as
+                per our customer’s requirements. Some of ROI metrics from our top customers are listed below:
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pd-top-sm">
+          <div class="col-12">
+            <div class="roi-wrapper d-flex">
+              <div class="box-roi" data-aos="fade-up">
+                <div class="badge">
+                  <h6>Big Four Consulting Firm</h6>
+                </div>
+                <div class="counter">
+                  <h1 class="jumbo-font">25%</h1>
+                </div>
+                <div class="counter-desc">
+                  <p class="secondaryColor">
+                    reduction in cost per hire resulting in <span class="primaryColor">$900,000</span> saving in a year
+                  </p>
+                </div>
+              </div>
+
+              <div class="box-roi" data-aos="fade-up" data-aos-delay="300">
+                <div class="badge">
+                  <h6>Large Networking Company</h6>
+                </div>
+                <div class="counter">
+                  <h1 class="jumbo-font">40%</h1>
+                </div>
+                <div class="counter-desc">
+                  <p class="secondaryColor">
+                    increase in speed of hiring and thus reducing average time-to-hire by <span class="primaryColor">22
+                      days</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="box-roi" data-aos="fade-up" data-aos-delay="600">
+                <div class="badge">
+                  <h6>Large Services Company</h6>
+                </div>
+                <div class="counter">
+                  <h1 class="jumbo-font">4 hours</h1>
+                </div>
+                <div class="counter-desc">
+                  <p class="secondaryColor">
+                    reduced from recruiter’s daily operations by eliminating wasteful activities
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row pd-top-sm">
+          <div class="col-12">
+            <div class="roi-wrapper d-flex">
+              <div class="box-roi" data-aos="fade-up">
+                <div class="badge">
+                  <h6>Large BPO Company</h6>
+                </div>
+                <div class="counter">
+                  <h1 class="jumbo-font">9x</h1>
+                </div>
+                <div class="counter-desc">
+                  <p class="secondaryColor">
+                    increase in candidate coverage and thus increasing hiring productivity of recruiters
+                  </p>
+                </div>
+              </div>
+
+              <div class="box-roi" data-aos="fade-up" data-aos-delay="300">
+                <div class="badge">
+                  <h6>Large Private Bank</h6>
+                </div>
+                <div class="counter">
+                  <h1 class="jumbo-font">18%</h1>
+                </div>
+                <div class="counter-desc">
+                  <p class="secondaryColor">
+                    reduction in drop-outs of candidates post acceptance protecting cost per hire escalations
+                  </p>
+                </div>
+              </div>
+
+              <div class="box-roi" data-aos="fade-up" data-aos-delay="600">
+                <div class="badge">
+                  <h6>Large RPO Company</h6>
+                </div>
+                <div class="counter">
+                  <h1 class="jumbo-font">4 months</h1>
+                </div>
+                <div class="counter-desc">
+                  <p class="secondaryColor">
+                    to recover investments in Callify due to overall efficiency gain
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- company logo -->
+    <section class="bgColorTwo pd-top-md pd-bottom-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <h1 class="text-center text-white">What type of companies <span class="primaryColor">see value</span>?
+              </h1>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="clients-logo d-flex">
+              <div><img src="img/img/client-logo/accenture.png" alt="accenture" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/amazon.png" alt="amazon" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/ey.png" alt="ey" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/genpact.png" alt="genpact" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/exl.png" alt="exl" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/hcl_tech.png" alt="hcl_tech" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/capgemini.png" alt="capgemini" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/ntt.png" alt="ntt" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/wns.png" alt="wns" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/bosch.png" alt="bosch" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/pitney_bowes.png" alt="pitney_bowes" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/philips.png" alt="philips" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/kelly.png" alt="kelly" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/allegis.png" alt="allegis" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/manpower.png" alt="manpower" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/adecco.png" alt="adecco" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/orange.png" alt="orange" class="img-fluid" /></div>
+              <div><img src="img/img/client-logo/infosys.png" alt="infosys" class="img-fluid" /></div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="pd-top-sm">
+              <h3 class="text-white text-center cust-font-h3">over <span class="primaryColor">30mn candidates</span>
+                screened</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Systems of records - logo -->
+    <section class="bgColorOne pd-top-md pd-bottom-md">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <h1 class="text-center">Callify Integrations with <span class="d-block primaryColor">Systems of
+                  records</span></h1>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="system-logo d-flex pd-top-xsm">
+              <div><img src="img/img/system-logo/success_factors.png" alt="success_factors" class="img-fluid" /></div>
+              <div><img src="img/img/system-logo/workday.png" alt="workday" class="img-fluid" /></div>
+              <div><img src="img/img/system-logo/oracle_taleo.png" alt="oracle_taleo" class="img-fluid" /></div>
+              <div><img src="img/img/system-logo/iclms.png" alt="iclms" class="img-fluid" /></div>
+              <div><img src="img/img/system-logo/ukg.png" alt="ukg" class="img-fluid" /></div>
+              <div><img src="img/img/system-logo/smart_recruiters.png" alt="smart_recruiters" class="img-fluid" /></div>
+              <div><img src="img/img/system-logo/lever.png" alt="lever" class="img-fluid" /></div>
+              <div><img src="img/img/system-logo/greenhouse.png" alt="greenhouse" class="img-fluid" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="extra-space"></div>
+    </section>
+
+    <!-- lottie img -->
+    <section>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-12">
+            <div class="graph-img-wrapper">
+              <div class="graph-img box-shadow text-center">
+                <img src="img/img/graph.png" alt="graph" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="extra-space"></div>
+          </div>
+        </div>
+
+        <div class="row pd-top-md pd-bottom-md">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <a class="btn btn-type-one" data-bs-toggle="modal" data-bs-target="#exampleModal">Demo?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-widget-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div>
+              <img src="img/img/footer-logo.png" alt="footer-logo" class="img-fluid" />
+              <p class="sm-font text-white mt-4">
+                Our guiding philosophy is to build simple solutions that optimize an existing business process; making
+                cumbersome yet important tasks; faster, better and cheaper.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-7 ms-auto">
+            <div class="d-flex justify-content-between footer-widget-col">
+              <div class="footer-widget-2">
+                <div class="sm-font">
+                  <p><a href="#">About us</a></p>
+                  <p><a href="#">Pricing</a></p>
+                  <p><a href="#">Features</a></p>
+                  <p><a href="#">TA Advisory</a></p>
+                </div>
+              </div>
+
+              <div class="footer-widget-3">
+                <div>
+                  <h6>USA</h6>
+                  <p class="sm-font">160 Varick Street, New York, NY, 10013</p>
+                </div>
+
+                <div>
+                  <h6>Philippines</h6>
+                  <p class="sm-font">Salcedo Village, Makati, Metro Manila, 1227</p>
+                </div>
+
+                <div>
+                  <h6>India</h6>
+                  <p class="sm-font">801, Sangam, Goregaon East, Mumbai, 400063</p>
+                </div>
+
+                <div class="d-flex gap-3 get-in-touch">
+                  <span><img src="img/img/mail-icon.svg" alt="mail-icon" class="img-fluid" /></span>
+                  <div>
+                    <a href="mailto:info@callify.ai" target="_blank" class="sm-font">info@callify.ai</a>
+
+                    <div class="mt-3 footer-social-icons">
+                      <a href="#" target="_blank">
+                        <img src="img/img/linkedin-icon.svg" alt="linkedin-icon" class="img-fluid" />
+                      </a>
+                      <a href="#" target="_blank">
+                        <img src="img/img/twitter-icon.svg" alt="twitter-icon" class="img-fluid" />
+                      </a>
+                      <a href="#" target="_blank">
+                        <img src="img/img/facebook-icon.svg" alt="facebook-icon" class="img-fluid" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div>
+              <p class="xsm-font">Copyright © callify.ai 2023. All rights reserved.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7 ms-auto">
+            <div class="xsm-font d-flex gap-5">
+              <a href="#">Privacy policy</a>
+              <a href="#">GDPR</a>
+              <a href="#">Terms of use</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <h3 class="cust-font-h3">I wish to contact for</h3>
+
+            <form>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Demo
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Pricing
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label" for="flexRadioDefault3">
+                  General Info
+                </label>
+              </div>
+
+              <div class="mb-3 mt-5">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+              </div>
+
+              <div class="mb-3">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Work email">
+              </div>
+
+              <div class="d-flex justify-content-center mt-5">
+                <a class="btn btn-type-one">Submit</a>
+              </div>
+
+              <div class="form-desc">
+                <p class="mb-0">By submitting you agree to our <a href="#">privacy policy</a> and to receive information
+                  from callify related to our products.</p>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery 3.7.0 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- lottie-player -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <!-- main js -->
+  <script src="js/app.js"></script>
+  <script src="js/audioplayer.js"></script>
+  <!-- aos animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/slick-setting.js"></script>
+  <!-- slick slider -->
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="slick/slick-slider.js"></script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
